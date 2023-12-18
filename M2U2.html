@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body style="margin-left: 5px; background-color:rgba(0, 105, 105, 0.569)">
+    <h2>Diseño simple formulario</h2>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Dirección email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="width: 250px;">
+    </div>
+    <label for="inputPassword5" class="form-label">Contraseña</label>
+       <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" style="width: 250px;">
+       <div id="passwordHelpBlock" class="form-text">
+         Tu contraseña debe ser entre 8 y 20 caracteres de largo y contener letras y números.
+       </div>
+       <div style="margin-top: 10px;">Sexo
+       <select class="form-select" aria-label="Default select example" style="width: 250px; margin-bottom: 10px;">
+        <option selected>Selecciona una opcion</option>
+        <option value="1">Masculino</option>
+        <option value="2">Femenino</option>
+        <option value="3">Otro</option>
+      </div>
+      </select>
+       <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label" style="margin-right: 1600px; margin-top: 10px;">Déjanos una breve descripcion de cómo eres en el espacio laboral</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 320px;"></textarea>
+        <div style="margin-top: 10px;">Cuál es tu estado laboral?</div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+          <label class="form-check-label" for="flexSwitchCheckDefault">Estudiante</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+          <label class="form-check-label" for="flexSwitchCheckChecked">Empleado</label> 
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+          <label class="form-check-label" for="flexSwitchCheckChecked">Desempleado</label> 
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+  </body>
+</html>
